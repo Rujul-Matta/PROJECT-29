@@ -4,6 +4,7 @@ class Block{
         this.width = 25;
         this.height = 45;
         World.add(world, this.body);
+        
     }
     display(){
         var pos = this.body.position;
